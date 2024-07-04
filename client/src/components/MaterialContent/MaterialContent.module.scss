@@ -1,0 +1,24 @@
+.submit {
+  margin: 30px 40% 50px 40%;
+  width: 120px;
+}
+  
+.list {
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.selected {
+  border: 3px solid #1c751f;
+  border-radius: 10px;
+  padding: 5px;
+  transform: scale(0.98);
+  transition: all linear 0.05s;
+  pointer-events: none;
+}
+
+.item {
+  transition: all linear 0.05s;
+  pointer-events: none;
+}
+  

@@ -1,0 +1,46 @@
+// CoursePage.module.scss
+
+.section {
+    padding: 0px 100px;
+  }
+  
+  .title {
+    margin-left: 20px;
+  }
+  
+  .breadcrumb {
+    margin-left: 10px;
+  }
+  
+  .content {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+    }
+    
+    .courseInfo {
+      width: 30%;
+    }
+    
+    .courseContent {
+      width: 60%;
+    }
+    
+    .header {
+      margin-bottom: 20px;
+    }
+    
+    .lessonList {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    .lessonItem {
+      cursor: pointer;
+      transition: color 0.3s ease;
+    
+      &:hover {
+        color: #007bff;
+      }
+    }
+    

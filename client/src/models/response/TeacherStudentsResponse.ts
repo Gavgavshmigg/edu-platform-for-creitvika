@@ -1,0 +1,15 @@
+import { ICourse, ILesson } from "../../types";
+import { IUser } from "../IUser";
+
+export interface TeacherStudentsResponse extends IUser {
+    attachedCourses: {
+        id: number,
+        course: ICourse,
+        customLessons: {
+            id: number,
+            datetime: string,
+            grade: number,
+            lesson: ILesson
+        }[],
+    }[]
+}

@@ -1,0 +1,29 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #f5f5f5;
+    }
+
+    & img {
+      width: 100px;
+    }
+  }
+  
+.content {
+    text-decoration: none;
+    margin-left: 20px;
+
+    & .subtitle {
+      color: gray;
+    }
+}

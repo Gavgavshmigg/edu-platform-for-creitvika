@@ -1,0 +1,26 @@
+.image {
+    display: inline-block;
+    object-fit: contain;
+    width: 100%;
+}
+
+.imageContainer {
+    display: block;
+    width: 280px;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.checkboxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+}
+
+.checkbox {
+    & input:disabled {
+        opacity: 1;
+    }
+}

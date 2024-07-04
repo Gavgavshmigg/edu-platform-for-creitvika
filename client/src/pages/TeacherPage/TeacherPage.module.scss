@@ -1,0 +1,35 @@
+.buttonsContainer {
+    display: flex;
+    justify-content: start;
+    margin-right: 100px;
+  }
+  
+  .button {
+    background-color: #FFE5B6;
+    color: #000;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 20px;
+    margin-right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #fac364;
+  }
+  
+  .selectedButton {
+    background-color: #F9B233;
+    color: #000;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 20px;
+    margin-right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .content {
+    margin-top: 20px;
+  }

@@ -1,0 +1,24 @@
+.slider {
+    box-sizing: border-box;
+    -webkit-box-shadow: inset 0px 0px 30px -22px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0px 0px 30px -22px rgba(0,0,0,0.3);
+    box-shadow: inset 0px 0px 30px -22px rgba(0,0,0,0.3);
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+    & div {
+        display: flex;
+        align-items: center;
+
+        & img {
+            object-fit: contain;
+            width: 300px;
+            margin: 0 auto;
+        }
+
+    }
+
+    & .slick-arrow {
+        border: 1px solid red;
+    }
+}
